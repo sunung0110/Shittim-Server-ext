@@ -65,7 +65,10 @@ KILL_HOST_LIST = [
 ]
 
 PING_HOST_REDIRECT = [
-    'toy.log.nexon.io'
+    'toy.log.nexon.io',
+    'x-init.ngs.nexon.com',
+    'x-phaethon.ngs.nexon.com',
+    'x-csauth.ngs.nexon.com'
 ]
 
 OTHER_KILL_HOST = [
