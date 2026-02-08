@@ -87,7 +87,7 @@ def request(flow: http.HTTPFlow) -> None:
     if any(flow.request.pretty_host.endswith(host) for host in PING_HOST_REDIRECT):
         flow.response = http.Response.make(
             200,
-            b"OK",
+            b"",
             {"Content-Type": "text/plain"}
         )
         return
