@@ -1,3 +1,7 @@
+The current version is not compatible. Do not use it.
+
+
+
 This is a extra api for https://github.com/Neoexm/Shittim-Server
 
 install nodeJS https://nodejs.org
